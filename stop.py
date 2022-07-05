@@ -1,8 +1,7 @@
 from tkinter import *
 t1=0;i=0
 
-def convert(t2): 
-
+def convert(t2):
     t=[0,0,0,0]
     t[0]=t2//360000; t2%=360000
     t[1]=t2//6000;    t2%=6000
@@ -15,7 +14,6 @@ def convert(t2):
     return t
 
 def update():
-
     if a:
         global t1 
         h,m,s,cs=convert(t1)
@@ -44,7 +42,6 @@ def reset():
         i.destroy()     
     
 def lap():
-
     global i;i+=1
     if i==10: 
         b3['state']=DISABLED
