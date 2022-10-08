@@ -72,7 +72,6 @@ l.pack(padx=10,pady=25)
 lap_frame=Frame(root,padx=10,bg="black")
 lap_frame.pack()
 
-
 b1=Button(but_frame,relief=FLAT,bg="black",image=img[0],command=start)
 b2=Button(but_frame,relief=FLAT,bg="black",image=img[2],command=reset,padx=10)
 b3=Button(but_frame,relief=FLAT,bg="black",image=img[3],command=lap,padx=10,state=DISABLED)
