@@ -1,5 +1,6 @@
 # Stopwatch
-A stopwatch built usng pyhton from scratch !
+
+A stopwatch built using python from scratch !
 
 # Prerequisites :
 
